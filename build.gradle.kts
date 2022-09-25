@@ -16,6 +16,8 @@ version = "1.0.0"
 
 repositories {
     mavenCentral()
+    maven("https://maven.isxander.dev/releases")
+    maven("https://maven.terraformersmc.com")
 }
 
 val minecraftVersion: String by project
@@ -24,8 +26,13 @@ val fabricLoaderVersion: String by project
 dependencies {
     minecraft("com.mojang:minecraft:$minecraftVersion")
     mappings("net.fabricmc:yarn:$minecraftVersion+build.+:v2")
-
     modImplementation("net.fabricmc:fabric-loader:$fabricLoaderVersion")
+
+    modImplementation(fabricApi.module("fabric-resource-loader-v0", "0.61.0+1.19.2"))
+    modImplementation("com.terraformersmc:modmenu:4.0.6")
+    modImplementation("dev.isxander:yet-another-config-lib:1.5.0") {
+        exclude(group = "net.fabricmc.fabric-api")
+    }
 }
 
 tasks {

@@ -15,14 +15,20 @@
   "license": "LGPL-3.0-or-later",
   "environment": "client",
   "entrypoints": {
-
+    "client": [
+      "dev.isxander.handsway.config.HandSwayConfig::load"
+    ],
+    "modmenu": [
+      "dev.isxander.handsway.config.modmenu.ModMenuIntegration"
+    ]
   },
   "mixins": [
-    "fabric-mod-template.mixins.json"
+    "hand-sway.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.14.0",
     "minecraft": "1.19.x",
-    "java": ">=17"
+    "java": ">=17",
+    "yet-another-config-lib": ">=1.5.0"
   }
 }

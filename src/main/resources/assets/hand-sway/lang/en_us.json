@@ -1,0 +1,25 @@
+{
+  "hand-sway.title": "Hand Sway",
+
+  "hand-sway.group.general": "General",
+  "hand-sway.option.swayIntensity": "Sway Intensity",
+  "hand-sway.option.swayIntensity.tooltip": "How much the arm sways.",
+  "hand-sway.option.swaySpeed": "Sway Speed",
+  "hand-sway.option.swaySpeed.tooltip": "How fast the arm sways.",
+
+  "hand-sway.group.arms": "Arms",
+  "hand-sway.option.armDeviation": "Arm Deviation",
+  "hand-sway.option.armDeviation.tooltip": "How different the sway is between the left and right.",
+  "hand-sway.option.invertOtherArm": "Invert Other Arm",
+  "hand-sway.option.invertOtherArm.tooltip": "Make the other arm the exact opposite sway.",
+
+  "hand-sway.group.advanced": "Advanced",
+  "hand-sway.option.xSpeedModifier": "X Speed Modifier",
+  "hand-sway.option.xSpeedModifier.tooltip": "How fast the X axis sways.",
+  "hand-sway.option.xIntensityDampener": "X Intensity Dampener",
+  "hand-sway.option.xIntensityDampener.tooltip": "How much the intensity of the X axis should be dampened.",
+  "hand-sway.option.ySpeedModifier": "Y Speed Modifier",
+  "hand-sway.option.ySpeedModifier.tooltip": "How fast the Y axis sways.",
+  "hand-sway.option.yIntensityDampener": "Y Intensity Dampener",
+  "hand-sway.option.yIntensityDampener.tooltip": "How much the intensity of the Y axis should be dampened."
+}
